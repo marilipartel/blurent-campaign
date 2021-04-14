@@ -1,89 +1,109 @@
 <section class="main">
-  <section class="logo">
-    <div class="container">
+  <div class="container">
+    <section class="logo">
       <img
         src="/assets/images/blurent-logo.svg"
         alt="Blurent logo"
         class="logo"
       />
-    </div>
-  </section>
-  <section class="header">
-    <div class="container">
-      <div class="hero">
-        <h1 class="hero__title">
-          REGISTREERU JA
-          <span class="bold">VÕIDA</span>
-          KINKEKAART VÄÄRTUSES <span class="bold">100€</span>
-        </h1>
-      </div>
-      <form action="#" class="register">
-        <div class="register__content">
-          <h2 class="register__title">SISESTA ENDA ANDMED</h2>
-          <div class="register__input">
-            <label class="register__label--text" for="name">NIMI</label>
-            <input class="" type="text" name="name" id="name" />
+    </section>
+    <section class="header">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="hero">
+            <h1 class="hero__title">
+              REGISTREERU JA
+              <span class="bold">VÕIDA</span>
+              KINKEKAART VÄÄRTUSES <span class="bold">100€</span>
+            </h1>
           </div>
-          <div class="register__input">
-            <label class="register__label--text" for="email">E-MAIL</label>
-            <input type="email" name="email" id="name" />
-          </div>
-          <div class="register__input">
-            <input type="checkbox" id="agree" name="agree" />
-            <label for="agree"
-              >nõustun
-              <a href="#" class="register__link"
-                >kampaaniatingimustega</a
-              ></label
-            >
-          </div>
-          <button class="btn-default register__btn">REGISTREERU</button>
         </div>
-      </form>
-    </div>
-  </section>
-  <section class="features">
-    <div class="container">
+        <div class="col-lg-5">
+          <form action="#" class="register">
+            <div class="register__content">
+              <h2 class="register__title">SISESTA ENDA ANDMED</h2>
+              <div class="register__input">
+                <label class="register__label--text" for="name">NIMI</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="register__input">
+                <label class="register__label--text" for="email">E-MAIL</label>
+                <input type="email" name="email" id="name" />
+              </div>
+              <div class="register__input">
+                <input type="checkbox" id="agree" name="agree" checked />
+                <label class="register__label--agree" for="agree"
+                  >nõustun
+                  <a href="#" class="register__link"
+                    >kampaaniatingimustega</a
+                  ></label
+                >
+              </div>
+              <button class="btn-default register__btn">REGISTREERU</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="features">
       <div class="features__content">
-        <div class="features__card">
-          <img
-            src="/assets/images/aurupuhasti-desktop.svg"
-            alt="Aurupuhasti 10€/24h"
-            class="features__img"
-          />
-          <p class="features__text bold">AURUPUHASTI</p>
-          <button class="btn-default features__button">VAATA LÄHEMALT</button>
-        </div>
-        <div class="features__card">
-          <img
-            src="/assets/images/tekstiilipesur-desktop.svg"
-            alt="Tekstiilipesur 14€/24h"
-            class="features__img"
-          />
-          <p class="features__text bold">TEKSTIILIPESUR</p>
-          <button class="btn-default features__button">VAATA LÄHEMALT</button>
-        </div>
-        <div class="features__card">
-          <img
-            src="/assets/images/survepesur-desktop.svg"
-            alt="Survepesur 10€/24h"
-            class="features__img"
-          />
-          <p class="features__text bold">SURVEPESUR</p>
-          <button class="btn-default features__button">VAATA LÄHEMALT</button>
+        <div class="row">
+          <div class="features__card">
+            <img
+              src="/assets/images/aurupuhasti.svg"
+              alt="Aurupuhasti 10€/24h"
+              class="features__img"
+            />
+            <div class="features__pricetag">
+              <p class="features__price bold">10€</p>
+            </div>
+            <div class="features__time">
+              <p class="features__24h bold">24h</p>
+            </div>
+            <p class="features__text bold">AURUPUHASTI</p>
+            <button class="btn-default features__button">VAATA LÄHEMALT</button>
+          </div>
+          <div class="features__card">
+            <img
+              src="/assets/images/tekstiilipesur.svg"
+              alt="Tekstiilipesur 14€/24h"
+              class="features__img"
+            />
+            <div class="features__pricetag">
+              <p class="features__price bold">14€</p>
+            </div>
+            <div class="features__time">
+              <p class="features__24h bold">24h</p>
+            </div>
+            <p class="features__text bold">TEKSTIILIPESUR</p>
+            <button class="btn-default features__button">VAATA LÄHEMALT</button>
+          </div>
+          <div class="features__card">
+            <img
+              src="/assets/images/survepesur.svg"
+              alt="Survepesur 10€/24h"
+              class="features__img"
+            />
+            <div class="features__pricetag">
+              <p class="features__price bold">10€</p>
+            </div>
+            <div class="features__time">
+              <p class="features__24h bold">24h</p>
+            </div>
+            <p class="features__text bold">SURVEPESUR</p>
+            <button class="btn-default features__button">VAATA LÄHEMALT</button>
+          </div>
         </div>
       </div>
+    </section>
+  </div>
+</section>
+<section class="footer">
+  <div class="footer__content">
+    <div class="footer__text">
+      <p class="footer__brand">BLURENT</p>
+      <p class="footer__registration">reg. nr 12345678</p>
+      <p class="footer__e-mail">info@blurent.ee</p>
     </div>
-  </section>
-  <section class="footer">
-    <div class="container">
-      <div class="footer__content">
-        <div class="footer__text">
-          <p class="footer__brand">BLURENT</p>
-          <p class="footer__registration">reg. nr 12345678</p>
-          <p class="footer__e-mail">info@blurent.ee</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
 </section>

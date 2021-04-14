@@ -1,0 +1,15 @@
+.features {
+  &__pricetag {
+    background-color: $blue;
+    color: $white;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__price {
+    margin: 0;
+  }
+}

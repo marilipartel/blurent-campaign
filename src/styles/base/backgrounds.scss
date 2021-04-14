@@ -1,0 +1,22 @@
+.main {
+  background-color: $blue;
+  // background-image: url("/assets/images/maandumisleht-taust.svg");
+}
+
+.hero {
+  background-image: url("/assets/images/hero-image.png");
+}
+
+.register {
+  background-color: $white;
+}
+
+.features {
+  &__card {
+    background-color: $white;
+  }
+}
+
+.footer {
+  background-color: $blue;
+}

@@ -1,0 +1,56 @@
+h1,
+h2,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+a {
+  color: $darkgrey;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 74px;
+  color: $white;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.register {
+  &__label {
+    &--text {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    &--agree {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}
+
+.features {
+  &__price {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.footer {
+  color: $white;
+}

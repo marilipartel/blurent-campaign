@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="857" viewBox="0 0 1920 857">
+  <defs>
+    <clipPath id="clip-maandumisleht">
+      <rect width="1920" height="857"/>
+    </clipPath>
+  </defs>
+  <g id="maandumisleht" clip-path="url(#clip-maandumisleht)">
+    <g id="taust" transform="translate(-3927)">
+      <path id="Path_141" data-name="Path 141" d="M4582.5,0C7113.345,0,9165,2051.655,9165,4582.5S7113.345,9165,4582.5,9165,0,7113.345,0,4582.5,2051.655,0,4582.5,0Z" fill="#fcfcfc"/>
+      <path id="Path_142" data-name="Path 142" d="M4545,0C7055.134,0,9090,2034.866,9090,4545S7055.134,9090,4545,9090,0,7055.134,0,4545,2034.866,0,4545,0Z" transform="translate(38 38)" fill="#e1e1e1" opacity="0.24"/>
+      <path id="Path_143" data-name="Path 143" d="M4495,0C6977.52,0,8990,2012.48,8990,4495S6977.52,8990,4495,8990,0,6977.52,0,4495,2012.48,0,4495,0Z" transform="translate(88 88)" fill="#ededed" opacity="0.53"/>
+      <path id="Path_144" data-name="Path 144" d="M4435,0C6884.383,0,8870,1985.617,8870,4435S6884.383,8870,4435,8870,0,6884.383,0,4435,1985.617,0,4435,0Z" transform="translate(148 148)" fill="#e6e6e6" opacity="0.63"/>
+    </g>
+  </g>
+</svg>

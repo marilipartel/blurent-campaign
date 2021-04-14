@@ -1,0 +1,12 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "/src/styles/base/colors.scss";
+@import "/src/styles/base/typography.scss";
+@import "/src/styles/base/backgrounds.scss";
+@import "/src/styles/components/buttons.scss";
+@import "/src/styles/components/price-tag.scss";
+@import "/src/styles/layout/desktop.scss";
