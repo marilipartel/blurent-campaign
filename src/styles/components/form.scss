@@ -1,0 +1,33 @@
+.register {
+  &__input {
+    input:checked + img {
+      display: none;
+    }
+    &--text {
+      border: 1px solid $darkgrey-borders;
+      border-radius: 8px;
+    }
+    &--agree {
+      width: 24px;
+      height: 24px;
+      transform: translate(24px, -3px);
+      display: none;
+    }
+  }
+  &__checkbox {
+    &--empty {
+      width: 24px;
+      height: 24px;
+      border: 1px solid $darkgrey-borders;
+      border-radius: 8px;
+      transform: translate(-8px, -3px);
+    }
+    &--linnuke {
+      transform: translate(-4px, -32px);
+    }
+  }
+}
+
+.invisible {
+  display: none;
+}
