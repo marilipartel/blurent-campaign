@@ -1,0 +1,7 @@
+.errormsg {
+  visibility: hidden;
+  text-align: center;
+  &--visible {
+    visibility: visible;
+  }
+}
