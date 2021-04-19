@@ -32,12 +32,12 @@
                 class="register__input--text"
                 type="email"
                 name="email"
-                id="name"
+                id="email"
               />
             </div>
             <div class="register__input d-flex justify-content-center">
               <div class="register__checkbox">
-                <div class="register__checkbox--empty"></div>
+                <!-- <div class="register__checkbox--empty"></div> -->
                 <input
                   class="register__input--agree"
                   type="checkbox"
@@ -45,11 +45,11 @@
                   name="agree"
                   checked
                 />
-                <img
+                <!-- <img
                   src="/assets/images/linnuke.svg"
                   alt=""
                   class="register__checkbox--linnuke"
-                />
+                /> -->
               </div>
               <label class="register__label--agree" for="agree"
                 >nõustun
@@ -58,13 +58,22 @@
                 ></label
               >
             </div>
-            <div class="errormsg">
+            <div class="errormsg invisible">
               <p>Palun täida kõik väljad.</p>
+            </div>
+            <div class="errormsg--email invisible">
+              <p>Sisesta korrektne e-mail.</p>
+            </div>
+            <div class="errormsg--checkbox invisible">
+              <p>Nõustu kampaaniatingimustega.</p>
             </div>
             <div class="btn">
               <button class="btn-default register__btn">REGISTREERU</button>
             </div>
           </form>
+          <div class="thankyou invisible">
+            <h3>AITÄH, OLED REGISTREERUNUD.</h3>
+          </div>
         </div>
       </div>
     </section>

@@ -1,8 +1,8 @@
 .register {
   &__input {
-    input:checked + img {
-      display: none;
-    }
+    // input:checked + img {
+    //   display: none;
+    // }
     &--text {
       border: 1px solid $darkgrey-borders;
       border-radius: 8px;
@@ -10,8 +10,8 @@
     &--agree {
       width: 24px;
       height: 24px;
-      transform: translate(24px, -3px);
-      display: none;
+      // transform: translate(24px, -3px);
+      // display: none;
     }
   }
   &__checkbox {

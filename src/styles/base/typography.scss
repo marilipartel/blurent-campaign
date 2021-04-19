@@ -1,5 +1,6 @@
 h1,
 h2,
+h3,
 button {
   font-family: "Montserrat", sans-serif;
 }
@@ -26,6 +27,13 @@ h2,
 button {
   font-size: 24px;
   line-height: 32px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .bold {

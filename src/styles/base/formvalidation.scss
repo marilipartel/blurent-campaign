@@ -1,7 +1,18 @@
-.errormsg {
-  visibility: hidden;
+.errormsg,
+.errormsg--email,
+.errormsg--checkbox {
   text-align: center;
-  &--visible {
-    visibility: visible;
-  }
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.errorbrdr {
+  border: 3px solid $pink;
+  border-radius: 8px;
 }
