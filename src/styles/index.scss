@@ -14,14 +14,13 @@ $container-max-widths: (
 @import "/src/styles/components/price-tag.scss";
 @import "/src/styles/components/form.scss";
 @import "/src/styles/layout/desktop.scss";
-@import "/src/styles/layout/mobile.scss";
 @import "/src/styles/layout/tablet.scss";
+@import "/src/styles/layout/mobile.scss";
 @import "/src/styles/base/formvalidation.scss";
 
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 .no-margin {

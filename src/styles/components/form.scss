@@ -10,8 +10,8 @@
     &--agree {
       width: 24px;
       height: 24px;
-      // transform: translate(24px, -3px);
-      // display: none;
+      // transform: translate(28px, -30px);
+      // visibility: hidden;
     }
   }
   &__checkbox {
@@ -20,10 +20,10 @@
       height: 24px;
       border: 1px solid $darkgrey-borders;
       border-radius: 8px;
-      transform: translate(-8px, -3px);
+      // transform: translate(28px, -5px);
     }
     &--linnuke {
-      transform: translate(-4px, -32px);
+      // transform: translate(-8px, -38px);
     }
   }
 }

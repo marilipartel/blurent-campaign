@@ -3,6 +3,9 @@
     background-color: $lightgrey;
     background-image: none;
   }
+  .container {
+    padding: 0;
+  }
   .logo {
     position: absolute;
     width: 100%;
@@ -26,14 +29,8 @@
     height: 384px;
     border-radius: 0px;
     padding-bottom: 22px;
-    &__content {
-      width: auto;
-    }
     &__title {
       display: none;
-    }
-    &__btn {
-      margin-left: auto;
     }
   }
   .features {
@@ -41,7 +38,8 @@
       text-align: center;
     }
     &__card {
-      margin: 0 auto 24px auto;
+      background-size: 90%;
+      background-position: 50% 35%;
     }
     &__textbox {
       padding-bottom: 40px;
@@ -52,18 +50,16 @@
     &__time {
       left: 130px;
     }
-    &__img {
-      width: 100%;
-    }
   }
+
   .footer {
-    &__text {
+    & &__text {
       width: 90%;
       text-align: center;
     }
   }
   .btn-default {
-    max-width: 90%;
+    max-width: 100%;
   }
   h1 {
     font-size: 32px;

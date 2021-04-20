@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+@media (max-width: 991px) {
   .main {
     background-color: $lightgrey;
     background-image: none;
@@ -26,21 +26,7 @@
   .features {
     &__card {
       margin: 0 auto 24px auto;
-    }
-  }
-  .footer {
-    &__text {
-      width: 80%;
-      text-align: center;
-    }
-  }
-}
-
-@media (max-width: 1024px) {
-  .footer {
-    &__text {
-      width: 50%;
-      text-align: center;
+      background-size: 50%;
     }
   }
 }
