@@ -1,33 +1,38 @@
 .register {
+  &__label--agree {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
   &__input {
-    // input:checked + img {
-    //   display: none;
-    // }
     &--text {
       border: 1px solid $darkgrey-borders;
       border-radius: 8px;
-    }
-    &--agree {
-      width: 24px;
-      height: 24px;
-      // transform: translate(28px, -30px);
-      // visibility: hidden;
-    }
-  }
-  &__checkbox {
-    &--empty {
-      width: 24px;
-      height: 24px;
-      border: 1px solid $darkgrey-borders;
-      border-radius: 8px;
-      // transform: translate(28px, -5px);
-    }
-    &--linnuke {
-      // transform: translate(-8px, -38px);
     }
   }
 }
 
 .invisible {
   display: none;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.checkbox__input {
+  display: none;
+}
+
+.checkbox__box {
+  width: 24px;
+  height: 24px;
+  border: 1px solid $darkgrey-borders;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.checkbox__input:checked + .checkbox__box {
+  background-image: url("/assets/images/linnuke.svg");
+  background-position: 3px -3px;
 }
