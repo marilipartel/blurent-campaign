@@ -29,6 +29,7 @@ const validateInputs = () => {
     isFormValid = false;
     errorMsg.classList.remove("invisible");
     nameInput.classList.add("errorbrdr");
+    emailInput.classList.add("errorbrdr");
   } else if (!isValidEmail(emailInput.value)) {
     isFormValid = false;
     errorMsgEmail.classList.remove("invisible");
@@ -47,12 +48,4 @@ form.addEventListener("submit", (e) => {
     form.remove();
     thankYou.classList.remove("invisible");
   }
-});
-
-nameInput.addEventListener("input", () => {
-  validateInputs();
-});
-
-emailInput.addEventListener("input", () => {
-  validateInputs();
 });

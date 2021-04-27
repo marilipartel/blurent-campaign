@@ -8,6 +8,9 @@
     &--text {
       border: 1px solid $darkgrey-borders;
       border-radius: 8px;
+      &:focus {
+        outline: none;
+      }
     }
   }
 }
@@ -30,9 +33,12 @@
   border: 1px solid $darkgrey-borders;
   border-radius: 8px;
   margin-right: 8px;
+  img {
+    display: none;
+  }
 }
 
-.checkbox__input:checked + .checkbox__box {
-  background-image: url("/assets/images/linnuke.svg");
-  background-position: 3px -3px;
+.checkbox__input:checked + .checkbox__box img {
+  display: block;
+  transform: translate(2px, -4px);
 }
